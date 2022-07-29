@@ -1,0 +1,154 @@
+/* initial css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* initial css end */
+
+/* sharded style start */
+.cBtn {
+  border-radius: 5px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+/* shared style end */
+
+/* nab bar css start */
+.navConteiner {
+  border-bottom: 1px solid rgba(0, 0, 0, 00.09);
+}
+nav {
+  margin-top: 30px;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoContainer {
+  width: 156px;
+}
+.searchBox {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchBox input {
+  border: none;
+  width: 340px;
+  height: 40px;
+  font-size: 20px;
+  margin: 5px;
+  padding-left: 10px;
+  background-color: white;
+  font-weight: 400;
+}
+
+.searchBox input:focus {
+  outline: none;
+}
+::placeholder {
+  color: rgb(22, 22, 22);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: rgb(22, 22, 22);
+}
+
+::-ms-input-placeholder {
+  color: rgb(22, 22, 22);
+}
+.navBtn {
+}
+.navBtn button {
+  height: 45px;
+  width: 165px;
+}
+.btnOne {
+  border: 1px solid #007163;
+  background-color: #007163;
+  color: white;
+}
+.btnTwo {
+  border: 1px solid #007163;
+  background: transparent;
+  color: #007163;
+  margin-left: 20px;
+}
+
+/* navbar css end */
+
+/* arts section */
+.artsSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  position: relative;
+}
+.artsSection h1,
+p {
+  text-align: center;
+}
+.artsSection h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 80px;
+}
+.artsSection p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 25px;
+}
+.artButton button {
+  height: 45px;
+  width: 165px;
+  margin-top: 30px;
+}
+.artBtn1 {
+  background: rgba(166, 124, 82, 0.1);
+  border: 1px solid #a67c52;
+  border-radius: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #a67c52;
+}
+.artBtn2 {
+  background: rgba(0, 113, 99, 0.1);
+  border: 1px solid #007163;
+  border-radius: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #007163;
+}
+.bgDesign {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background: #007163;
+  opacity: 0.7;
+  filter: blur(100px);
+  border-radius: 100%;
+}
+
+/* arts section end */
